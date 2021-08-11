@@ -1,0 +1,53 @@
+.con-square {
+  width: 62px;
+  height: 62px;
+  /* border:1px solid red ; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.circle {
+  visibility: visible;
+  border-radius: 50%;
+  border: 2px solid black;
+  width: 80%;
+  height: 80%;
+}
+
+[id="w0"]>.circle {
+  visibility: hidden;
+}
+
+[id="b0"]>.circle {
+  visibility: hidden;
+}
+
+[id="w0"] {
+  background-color: #ead48e;
+}
+
+[id="b0"] {
+  background-color: #ce874d;
+}
+
+[id="b1"] {
+  background-color: #ce874d;
+}
+
+[id="b2"] {
+  background-color: #ce874d;
+}
+
+[id="b1"]>.circle {
+  background-color: white;
+}
+
+[id="b2"]>.circle {
+  background-color: #424242;
+  border: 2px solid black;
+}
+[glow="true"]
+{
+  border:2px solid green;
+}

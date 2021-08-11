@@ -1,0 +1,13 @@
+.board
+{
+  width :500px;
+  height:500px;
+  border:2px solid brown;
+  margin :auto;
+  display: flex;
+  flex-wrap: wrap;
+  gap:0;
+  flex-grow: 0;
+  align-content: flex-start;
+  overflow:hidden;
+}
